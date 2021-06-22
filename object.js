@@ -1,17 +1,17 @@
-var user = {
-    name:"john",
-    age:20,
-    job:"HR",
-}   
-var user1 = {
-    name:"john",
-    age:20,
-    job:"HR",
-}   
-var user1 = user
-// user.sname = "rock";          //Add new property to the variable
-// for(let key in user)          //for with objects
-console.log(user == user1)
+// var user = {
+//     name:"john",
+//     age:20,
+//     job:"HR",
+// }   
+// var user1 = {
+//     name:"john",
+//     age:20,
+//     job:"HR",
+// }   
+// var user1 = user
+// // user.sname = "rock";          //Add new property to the variable
+// // for(let key in user)          //for with objects
+// console.log(user == user1)
 
 //in method return true or false
 //console.log("compa" in user)
@@ -23,3 +23,12 @@ console.log(user == user1)
 //     }
 // }
 // console.log(makeUser("jo","rock"))
+
+
+//OBJECT CONSTRUCTOR new{}
+function User(name) {
+    this.name = name;
+    this.isAdmin = false;
+  }
+let user = new User("Jack");
+console.log(user.name)
