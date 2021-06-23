@@ -26,9 +26,9 @@
 
 
 //OBJECT CONSTRUCTOR new{}
-function User(name) {
-    this.name = name;
-    this.isAdmin = false;
-  }
-let user = new User("Jack");
-console.log(user.name)
+var user = {
+    name: "Jock",
+    age: 30,
+    address:"Hyd",
+}
+console.log(user.address.street)
