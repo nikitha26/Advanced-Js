@@ -46,13 +46,17 @@
 
 
  //Rest parameter
- function sumAll(...args){       //args is array name
-      let sum = 0;
-      console.log(typeof(args))
-      // console.log(args.length)
-      // console.log(args[0])
-      for(let digi of args) sum += digi;
-      return sum;
- }
- var result = sumAll(1,2,3,4,5,2)
- console.log(result)
+//  function sumAll(...args){       //args is array name
+//       let sum = 0;
+//       console.log(typeof(args))
+//       // console.log(args.length)
+//       // console.log(args[0])
+//       for(let digi of args) sum += digi;
+//       return sum;
+//  }
+//  var result = sumAll(1,2,3,4,5,2)
+//  console.log(result)
+
+
+
+//Spread Syntax
