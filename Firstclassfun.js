@@ -18,6 +18,7 @@
 //    console.log("Call back");
 // },2000)
 
+//First Class functions
 // function x(y){
 //   console.log("x")
 //   y()

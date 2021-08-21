@@ -20,3 +20,8 @@ console.log(x)
 console.log(calculate(radius,diameter))
 // console.log(calculate(radius,circumference))
 // console.log(calculate(radius,area))
+
+function hello(a){
+  console.log(a);
+}
+hello(4)
